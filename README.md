@@ -3,7 +3,11 @@
 
 *AVRA* is a tool that takes an unprocessed T1-weighted MRI image (in .nii or .nii.gz format) of the brain and automatically predicts Scheltens' scale of medial temporal atrophy (MTA), Pasquier's frontal subscale of global cortical atrophy (GCA-F), and Koedam's scale of Posterior Atrophy (PA). These scales are used clinically to visually quantify the degree of atrophy and is an important clinical biomarker in neurodegenerative disorders such as Alzheimer's Disease. AVRA was trained on more than 2000 images with visual ratings made by an expert neuroradiologist.
 
-The methods in this repository is described in [AVRA: Automatic Visual Ratings of Atrophy from MRI images using Recurrent Convolutional Neural Networks.](https://www.sciencedirect.com/science/article/pii/S2213158219302220) by Mårtensson et al. (2019). Please cite this paper if you use AVRA in research. The R-CNN is based on the Residual Attention Network from [Wang et al. (2017)](https://arxiv.org/abs/1704.06904).
+The methods in this repository is described in:
+
+Gustav Mårtensson, Daniel Ferreira, Lena Cavallin, J-Sebastian Muehlboeck, Lars-Olof Wahlund, Chunliang Wang, and Eric Westman, [AVRA: Automatic Visual Ratings of Atrophy from MRI images using Recurrent Convolutional Neural Networks.](https://www.sciencedirect.com/science/article/pii/S2213158219302220), NeuroImage: Clinical, 2019. Please cite this paper if you use AVRA in research. 
+
+The R-CNN is based on the Residual Attention Network from [Wang et al. (2017)](https://arxiv.org/abs/1704.06904).
 
 
 <img src="figures/vrs_fig_text.png" alt="vrs" height="350" hspace="50" title="Visual rating scales"/><img src="figures/avra_rnn.png" alt="vrs" height="350"/>
