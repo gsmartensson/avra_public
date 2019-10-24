@@ -1,0 +1,8 @@
+numpy
+matplotlib
+argparse
+nibabel
+h5py
+nipype
+glob
+csv
