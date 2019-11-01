@@ -57,7 +57,8 @@ See below for installation instructions.
 **Download AVRA python scripts**
 - Open a terminal and cd to the folder where you wish to install avra and clone repository:
 ``` 
-cd /path/to/your/installation/folder && git clone https://github.com/gsmartensson/avra_public.git
+cd /path/to/your/installation/folder 
+git clone https://github.com/gsmartensson/avra_public.git
 ``` 
 
 or press "Clone or Download" in the top right corner and unzip the repository in your folder of choice.
