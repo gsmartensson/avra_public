@@ -43,8 +43,7 @@ These instructions show you code prerequisites needed to run AVRA and how to ins
     - numpy
     - matplotlib
     - argparse
-    - glob
-    - csv
+    - glob3
     - nibabel
     - h5py
     - nipype
@@ -81,12 +80,12 @@ In the terminal:
 
 ```
 cd /path/to/model-dir
-wget "https://github.com/gsmartensson/avra_public/releases/download/0.8/0.8.tar.gz"
+wget "https://github.com/gsmartensson/avra_public/releases/download/v0.8/0.8.tar.gz"
 tar -xvf 0.8.tar.gz 
 ```
 or, if you don't want to use the terminal, copy the link into your browser. This will prompt a download, which you direct to you directory of choice. Left-click on the .tar.gz and extract content.
 
-To download the model weights used in the [original paper](https://www.sciencedirect.com/science/article/pii/S2213158219302220) (v0.7, trained on a smaller data set), use the link "https://github.com/gsmartensson/avra_public/releases/download/0.7/0.7.tar.gz" instead.
+To download the model weights used in the [original paper](https://www.sciencedirect.com/science/article/pii/S2213158219302220) (v0.7, trained on a smaller data set), use the link "wget "https://github.com/gsmartensson/avra_public/releases/download/v0.7/0.7.tar.gz"" instead.
 
 ## Usage
 ### Single case

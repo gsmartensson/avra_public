@@ -4,15 +4,15 @@ Misc. functions useful for training/evaluating/using models.
 
 """
 from __future__ import division
-import csv
+#import csv
 import torch
 import torch.nn.functional as F
-from sklearn.metrics import cohen_kappa_score,confusion_matrix
+#from sklearn.metrics import cohen_kappa_score,confusion_matrix
 
 import torch.nn.parallel
 import torch.optim
 import torch.utils.data
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 import os
 import nipype.interfaces.fsl as fsl
@@ -22,7 +22,7 @@ import nibabel
 
 from shutil import copyfile
 import glob
-import copy
+#import copy
 def load_mri(file):
     # Load mri files with same orientation and numpy format
     a = nibabel.load(file) # load file

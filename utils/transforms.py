@@ -12,7 +12,7 @@ import torch
 
 from skimage import io, transform
 import numpy as np
-from scipy import misc,ndimage
+#from scipy import misc,ndimage
 import matplotlib.pyplot as plt
 from scipy.ndimage import map_coordinates
 
