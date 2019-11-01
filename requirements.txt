@@ -5,3 +5,4 @@ nibabel
 h5py
 nipype
 glob3
+scikit-image

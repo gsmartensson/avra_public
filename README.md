@@ -72,7 +72,7 @@ We suggest that you install all python libraries in a conda environment, see ins
 ``` 
 pip install -r requirements.txt
 ```
-- Install the latest PyTorch version (currently 1.2) by following the instructions [here](https://pytorch.org/). PyTorch is a deep learning platform with a Python front-end.
+- Install the latest PyTorch version (currently 1.3) by following the instructions [here](https://pytorch.org/). PyTorch is a deep learning platform with a Python front-end.
 
 ### Download model weights
 In order to use AVRA you also need to download the pretrained model weights to your computer. 
@@ -95,7 +95,7 @@ To process an image through AVRA you can use the following command (inside the f
 python avra.py --input-file /path/to/image_folder/input_filename.nii.gz --model-dir /path/to/model_weights_folder --uid new_output_filename_prefix --output-dir /path/to/output_folder
 ```
 
-This command would input the image `input_filename.nii.gz`, load the pretrained weights located in `/path/to/model_weights_folder/mta/model_*.pth.tar` and produce the files:
+This command would input the image `input_filename.nii.gz`, load the pretrained weights located in `/path/to/model_weights_folder/{mta,gca-f,pa}/model_*.pth.tar` and produce the files:
 
 - `new_output_filename_prefix.csv`: csv file with all predicted visual ratings from AVRA. E.g. the column `mta_left_mean` is the mean of the prediction from the ensemble models and is the value that we have used in our [paper](https://www.sciencedirect.com/science/article/pii/S2213158219302220) (https://www.sciencedirect.com/science/article/pii/S2213158219302220). Other columns s.a. `mta_left_model_3` refers to the prediction of the third ensemble model, and `mta_left_std` the standard deviations of the ensemble predicitons.
 - `new_output_filename_prefix_coronal.jpg`: coronal slice of `input_filename.nii.gz`, close to MTA rating slice. This image is used for debugging purposes. If the FSL registration (AC-PC alignment) fails severely, the jpg image while typically not show a coronal slice.
