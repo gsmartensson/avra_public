@@ -5,7 +5,7 @@
 
 The methods in this repository is described in:
 
-Gustav Mårtensson, Daniel Ferreira, Lena Cavallin, J-Sebastian Muehlboeck, Lars-Olof Wahlund, Chunliang Wang, and Eric Westman, [AVRA: Automatic Visual Ratings of Atrophy from MRI images using Recurrent Convolutional Neural Networks.](https://www.sciencedirect.com/science/article/pii/S2213158219302220), NeuroImage: Clinical, 2019. Please cite this paper if you use AVRA in research. 
+Gustav Mårtensson, Daniel Ferreira, Lena Cavallin, J-Sebastian Muehlboeck, Lars-Olof Wahlund, Chunliang Wang, and Eric Westman, [AVRA: Automatic Visual Ratings of Atrophy from MRI images using Recurrent Convolutional Neural Networks.](https://www.sciencedirect.com/science/article/pii/S2213158219302220), NeuroImage: Clinical, 2019.
 
 The R-CNN is based on the Residual Attention Network from [Wang et al. (2017)](https://arxiv.org/abs/1704.06904).
 
@@ -27,6 +27,7 @@ The R-CNN is based on the Residual Attention Network from [Wang et al. (2017)](h
    * [Single case](#single-case)
    * [Multiple files](#multiple-files)
 * [Troubleshooting](#troubleshooting)
+* [Citation](#cite)
 * [License](#license)
 * [Contact](#contact)
 
@@ -127,6 +128,10 @@ conda activate py2
 and the run `python2.7 fslinstaller.py`.
 
 - Please report any problems with running AVRA on https://github.com/gsmartensson/avra_public/issues
+
+## Citation
+If you use AVRA in your research, please cite:
+> Gustav Mårtensson, Daniel Ferreira, Lena Cavallin, J-Sebastian Muehlboeck, Lars-Olof Wahlund, Chunliang Wang, and Eric Westman, [AVRA: Automatic Visual Ratings of Atrophy from MRI images using Recurrent Convolutional Neural Networks.](https://www.sciencedirect.com/science/article/pii/S2213158219302220), NeuroImage: Clinical, 2019.
 
 ## License
 
